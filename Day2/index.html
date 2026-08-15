@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Goose Bistro | Pizza-on-Demand</title>
+</head>
+<body>
+    <main>
+        
+        <a href="#">Main</a>
+        <a href="#">Make an Order</a> 
+        <a href="#">Contact Us</a>
+
+        
+        <h2>Black Goose Bistro | Pizza-on-Demand</h2>
+        <p>Our 12" wood-fired pizza are available for delivery, build your custom pizza and we'll deliver it within an hour.</p>
+
+        <form action="#" method="post">
+            
+        
+            <fieldset>
+                <legend><strong>Your Information</strong></legend>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><label for="Name">Name :</label></td>
+                            <td><input type="text" name="Name" id="Name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="Address">Address :</label></td>
+                            <td><input type="text" name="Address" id="Address"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="phone">Telephone Number :</label></td>
+                            <td><input type="tel" name="Telephone" id="phone"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email :</label></td>
+                            <td><input type="email" name="Email" id="email"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <label for="instructions">Delivery Instruction :</label><br>
+                                <textarea name="instructions" id="instructions" rows="4" cols="40" placeholder="No more than 400 character long"></textarea>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+
+            <h3>Design Your Dream Pizza:</h3>
+
+        
+            <fieldset>
+                <legend><strong>Pizza specs</strong></legend>
+                <p><strong>Crust (Choose one):</strong></p>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><input type="radio" id="classic" name="crust" value="classic"></td>
+                            <td><label for="classic">Classic White</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" id="multigrain" name="crust" value="multigrain"></td>
+                            <td><label for="multigrain">Multigrain</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" id="stuffed" name="crust" value="stuffed"></td>
+                            <td><label for="stuffed">Choose-stuffed crust</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" id="gluten-free" name="crust" value="gluten-free"></td>
+                            <td><label for="gluten-free">Gluten-free</label></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p><strong>Toppings (Choose as many as you want):</strong></p>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><input type="checkbox" id="RedSauce" name="toppings" value="Red Sauce"></td>
+                            <td><label for="RedSauce">Red Sauce</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" id="WhiteSauce" name="toppings" value="White Sauce"></td>
+                            <td><label for="WhiteSauce">White Sauce</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" id="Mozzarella" name="toppings" value="Mozzarella Cheese"></td>
+                            <td><label for="Mozzarella">Mozzarella Cheese</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" id="Pepperoni" name="toppings" value="Pepperoni"></td>
+                            <td><label for="Pepperoni">Pepperoni</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" id="Mushrooms" name="toppings" value="Mushrooms"></td>
+                            <td><label for="Mushrooms">Mushrooms</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" id="Peppers" name="toppings" value="Peppers"></td>
+                            <td><label for="Peppers">Peppers</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox" id="Anchovies" name="toppings" value="Anchovies"></td>
+                            <td><label for="Anchovies">Anchovies</label></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+
+            
+            <fieldset>
+                <legend><strong>Number</strong></legend>
+                <br>
+                <label for="count">How many pizzas:</label>
+                <input type="number" name="count" id="count">
+            </fieldset>
+
+            <br>
+            
+            <button type="submit">Bring me a pizza!</button>
+            <button type="reset">Reset</button>
+                
+                 </form>
+    </main>
+</body>
+</html>
