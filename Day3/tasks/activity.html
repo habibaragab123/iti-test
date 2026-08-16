@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 2</title>
+</head>
+<body>
+    <h1>Product Catalog</h1>
+    <form>
+        <label for="search">Search Product:</label>
+        <input list="products" id="search">
+        <datalist id="products">
+            <option value="Laptop">Laptop</option>
+            <option value="Phone">Phone</option>
+            <option value="Headphones">Headphones</option>
+        </datalist>
+        <label for="category">Category:</label>
+        <select name="category" id="category">
+            <option value="Electronics">Electronics</option>
+            <option value="Accessories">Accessories</option>
+            <option value="Other">Other</option>
+        </select>
+        <button type="submit">Filter</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio">
+    <title>Habiba Ragab - Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Habiba Ragab</h1>
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a second-year Information Technology student and aspiring Front-End Engineer. <br> <strong>focused on</strong> building clean UI components, mastering modern web frameworks like React, and combining design with data-driven insights.</p>
+            <figure>
+                <img src="./images/myPhoto.png" alt="Habiba Ragab Profile Picture" width="150" height="150">
+            </figure>
+        </section>
+
+        <hr>
+        <section id="skills">
+            <h2>Skills & Learning Journey</h2>
+            
+            <h3>Technical Skills:</h3>
+            <ul>
+                <li>HTML5, CSS3 & JavaScript</li>
+                <li>React.js & Front-End Development</li>
+                <li>Data Analysis, Power BI & SQL</li>
+                <li>Git & GitHub</li>
+            </ul>
+
+            <h3>Learning Roadmap:</h3>
+            <ol>
+                <li>HTML Fundamentals</li>
+                <li>CSS & Responsive Design</li>
+                <li>JavaScript & React</li>
+            </ol>
+
+            <p>I am currently focusing on <mark>mastering core concepts</mark> to build <strong>modern</strong> and <em>highly efficient</em> web applications.</p>
+        </section>
+
+        <hr>
+        <section id="courses">
+            <h2>My Courses</h2>
+            <table border="1">
+                <caption>Overview of my ongoing and completed learning tracks</caption>
+                <thead>
+                    <tr>
+                        <th>Course Name</th>
+                        <th>Duration</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Web Development Track</td>
+                        <td>1 Month</td>
+                        <td>In Progress</td>
+                    </tr>
+                    <tr>
+                        <td>Git & GitHub Basics</td>
+                        <td>2 days</td>
+                        <td>Completed</td>
+                    </tr>
+                    <tr>
+                        <td>Data Analytics</td>
+                        <td>6 months</td>
+                        <td>completed</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Total Courses</td>
+                        <td>3</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <hr>
+        <section id="gallery">
+            <h2>Project Gallery</h2>
+            
+            <figure>
+                <img src="./images/Html-project.png" alt="HTML Web Page Project Screenshot" width="1000" height="500">
+                <figcaption>Building semantic web layouts using pure HTML</figcaption>
+            </figure>
+
+            <figure>
+                <img src="./images/mydash1.png" alt="Interactive Dashboard Project Screenshot" width="1000p" height="500">
+                <figcaption>Data visualization and Power BI dashboard mockup</figcaption>
+            </figure>
+        </section>
+
+        <hr>
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+            
+            <details>
+                <summary>Are you available for freelance projects or internships?</summary>
+                <p>Yes! I am open to freelance work in web development and data analytics.</p>
+            </details>
+
+            <details>
+                <summary>What tools and technologies do you use?</summary>
+                <p>I work with HTML, CSS, JavaScript, React, SQL, and Power BI for data analysis projects.</p>
+            </details>
+        </section>
+
+        <hr>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <div>
+                    <label for="fullname">Full Name:</label><br>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" placeholder="name@example.com" required>
+                </div>
+                <br>
+                <div>
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="+20 100 000 0000">
+                </div>
+                <br>
+                
+                <br>
+                <div>
+                    <label for="subject">Subject:</label><br>
+                    <select id="subject" name="subject">
+                        <option value="general">General Inquiry</option>
+                        <option value="project">Project Collaboration</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label>Preferred Contact Method:</label><br>
+                    <input type="radio" id="pref_email" name="contact_pref" value="email" checked>
+                    <label for="pref_email">Email</label>
+                    
+                    <input type="radio" id="pref_phone" name="contact_pref" value="phone">
+                    <label for="pref_phone">Phone</label>
+                </div>
+                <br>
+                <div>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="40" placeholder="Type your message here..."></textarea>
+                </div>
+                <br>
+                <div>
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">I agree to the terms and conditions</label>
+                </div>
+                <br>
+                <div>
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <hr>
+    <footer>
+        <address>
+            Contact via email: <a href="habibaragab482006@gmail.com">habibaragab482006@gmail.com</a><br>
+            Location: 6th of October City, Egypt
+        </address>
+        <p>Follow me on <a href="https://github.com" target="_blank">GitHub</a></p>
+        <p>&copy;&nbsp;2026 Habiba Ragab. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
