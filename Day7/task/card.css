@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    /* font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal; */
+    /* font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal; */
+    }
+body {
+    background-color: #0b1329;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.profile-card {
+    background-color: #1e293b;
+    width: 90%;                
+    max-width: 380px;          
+    padding: 2.5rem 1.5rem;    
+    margin: 0 auto;            
+    border: 1px solid #334155;
+    border-radius: 16px;      
+    text-align: center;       
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+}
+.card-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #38bdf8;
+    margin-bottom: 20px;
+}
+.card-name {
+    color: #f8fafc;
+    font-size: 24px;
+    font-weight: 700; 
+    margin-bottom: 6px;
+}
+
+.card-title {
+    color: #38bdf8;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    
+}
+
+.card-description {
+    color: #94a3b8;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+.card-btn {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #38bdf8;
+    color: #0f172a;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 12px 28px;
+    border-radius: 8px;
+}
+.card-btn:hover {
+    background-color: #7dd3fc;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(56, 189, 248, 0.3);
+}
